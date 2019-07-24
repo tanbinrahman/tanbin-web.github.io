@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Oswald:300,400,500,600,700');
+
+.navbar .navbar-brand {
+	color: #636e72;
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+}
+
+header {
+  padding: 156px 0 100px;
+}
+
+.head{
+	background-color: #636e72;
+	color: #2d3436;
+	font-family: 'Oswald', sans-serif; 
+
+}
+.head h1{
+	font-size: 100px;
+}
+
+
+
+#Home{
+	background:url('../image/home/home.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+.H-overly{
+	background: rgba(0, 0, 0, .60);
+	padding: 88px 0px;
+}
+
+#Home .H-content h2{
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	color: #dfe6e9;
+}
+
+#Home .H-content h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 40px;
+	color: #dfe6e9;
+	font-weight: 700;
+	padding-bottom: 30px;
+	padding-top: 15px;
+}
+#Home .H-content p{
+	font-size: 13px;
+	color:#dfe6e9;
+	line-height: 30px;
+	margin-bottom: 34px;
+}
+
+#Home .H-button a{
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	color: #dfe6e9;
+	border: 1px solid #dfe6e9;
+	padding: 10px 15px;
+	margin-left: 20px;
+	transition: all linear .3s;
+}
+#Home .H-button a:hover{
+	background: #636e72;
+	border:1px solid #636e72; 
+	border-radius: 50px;
+}
+
+/*about part start */
+#About{
+	background-color: #636e72;
+}
+#About .common-heading h1{
+	padding-top: 80px;
+	padding-bottom: 85px;
+}
+
+#About .edu-status{
+	padding-bottom: 70px;
+}
+#About .edu-item{
+	background-color: #2d3436;
+	transition: all linear .3s;
+}
+.edu-item .edu-icon{
+	height: 85px;
+	width: 85px;
+	border-radius: 50%;
+	border: 5px solid #dcdde1;
+	background-color: #fff;
+	margin:0 auto;
+	position: absolute;
+	top: -40px;
+	left: 50%;
+	transform: translate(-50%);
+	transition: all linear .3s;
+}
+.edu-item .edu-icon-2{
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	border: 6px solid #f1f1f1;
+	background-color: #dfe6e9;
+	margin:3px auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all linear 0.3s;
+}
+.edu-item .edu-icon-2 img{
+	height: 50px;
+	width: 40px;
+}
+.edu-item .edu-com{
+	padding: 50px 10px 20px ;
+	background-color: #2d3436;
+
+}
+
+.edu-item .edu-com p{
+	margin-left: 30px;
+	color: #dfe6e9;
+}
+
+#About .edu-item:hover{
+	box-shadow: 0px 0px 20px #dfe6e9;
+}
+
+.edu-item:hover .edu-icon-2 ,
+.edu-item:hover .edu-icon {
+	background-color: #7f8c8d;
+}
+
+.table{
+	margin: 0px;
+	padding: 0px;
+}
+
+#About .common-heading-2 h1{
+	padding-bottom: 10px;
+	padding-bottom: 45px;
+}
+/* about part end */
+
+/* Gallery part start */
+
+
+
+#Gallery{
+	background-color: #636e72;
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
+/* Gallery part end */
+
+/* contact part start */
+
+#Contact{
+  background-color: #2d3436;
+  padding: 110px 0px 80px;
+}
+#Contact .contact-item-1{}
+#Contact .contact-item-1 p{
+
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  color: #dfe6e9;
+  margin-top: 50px;
+}
+#Contact .contact-items .contact-link{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+
+}
+#Contact .contact-items .contact-link p{
+  margin-left:25px;
+  font-size: 16px;
+  color: #dfe6e9;
+  padding-bottom: 35px;
+}
+#Contact .contact-items .contact-link img{
+  margin-left: 130px;
+  padding-bottom: 35px;
+
+}
+
+#Contact .contact-items{
+  border-left: 1px solid #dfe6e9;
+}
+	
+/* contact part end */
+
+.copyright{
+  background: #2d3436 ;
+  color: #dfe6e9;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
